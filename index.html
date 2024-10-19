@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi To-Do List dengan Deadline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List dengan Deadline</h1>
+        <div class="input-container">
+            <input type="text" id="todo-input" placeholder="Tambahkan tugas baru...">
+            <input type="date" id="deadline-input">
+            <button id="add-btn">Tambah</button>
+        </div>
+        <div id="filter-buttons">
+            <button id="filter-all" class="active">Semua</button>
+            <button id="filter-active">Aktif</button>
+            <button id="filter-completed">Selesai</button>
+        </div>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
